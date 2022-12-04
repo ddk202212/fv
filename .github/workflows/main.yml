@@ -4,9 +4,9 @@ on:
   schedule:
     - cron: '0 4 1 * *'
 env:
-  FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
-  APP_NAME: ${{ secrets.APP_NAME }}
-  UUID: ${{ secrets.UUID }}
+  FLY_API_TOKEN: ${{ ZQzxZbnOXjpDc6uQWFRHThhyE9SBICu4NK3MD8m0eUg }}
+  APP_NAME: ${{ fv2022124 }}
+  UUID: ${{ d1fb362b-8fea-49af-9545-9ded7ba1d158 }}
 jobs:
   deploy:
     name: Deploy app
